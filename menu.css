@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin: 0px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* These are for positioning and layouts */
+
+.leftmenu-div {
+    background-color: gray;
+    /* position: absolute; */
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-div {
+    background-color: rgb(202, 202, 202);
+    width: 768px;
+    height: 713.6px;
+    /* margin-left: 384px; */
+    display: flex;
+}
+
+.contents-div {
+    background-color: rgb(202, 202, 202);
+    /* position: absolute; */
+    /* left: 487px; */
+    display: inline-block;
+    width: 568px;
+    height: 100%;
+    overflow: auto;
+    text-align: justify;
+}
+
+.text-contents-div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* These are for the menu on left side */
+
+ul.menu-ul {
+    margin-top: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+ul.menu-ul li div {
+    height: 30px;
+}
+
+ul.menu-ul li>a {
+    text-align: center;
+    color: black;
+    text-decoration-line: none;
+    font-size: 24px;
+}
+
+ul.menu-ul li div:hover {
+    background-color: black;
+    color: gray;
+    transition: 0.3s;
+}
