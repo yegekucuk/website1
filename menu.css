@@ -57,19 +57,26 @@ ul.menu-ul {
     padding: 0px;
 }
 
-ul.menu-ul li div {
-    height: 30px;
-}
-
 ul.menu-ul li>a {
+    display: block;
     text-align: center;
     color: black;
     text-decoration-line: none;
     font-size: 24px;
 }
 
-ul.menu-ul li div:hover {
+ul.menu-ul li>a>div.menuitem-currentpage:hover {
+    background-color: #44584f;
+    color: gainsboro;
+}
+
+ul.menu-ul li>a>div:hover {
     background-color: black;
     color: gray;
     transition: 0.3s;
+}
+
+.menuitem-currentpage {
+    background-color: #44584f;
+    color: gainsboro;
 }
