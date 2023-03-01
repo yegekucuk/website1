@@ -23,12 +23,13 @@ p {
     width: 200px;
     height: 100%;
     overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .main-div {
-    background-color: rgb(202, 202, 202);
     width: 768px;
-    height: 713.6px;
+    /* height: 713.6px; */
+    height: auto;
     /* margin-left: 384px; */
     display: flex;
 }
@@ -40,8 +41,9 @@ p {
     display: inline-block;
     width: 568px;
     height: 100%;
-    overflow: auto;
+    overflow: visible;
     text-align: justify;
+    padding-bottom: 20px;
 }
 
 .text-contents-div {
