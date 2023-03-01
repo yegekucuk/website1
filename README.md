@@ -3,4 +3,4 @@
 
 My first self designed website
 
-Live on http://kamoswine.byethost3.com/
+Live on http://gymbro.web1337.net/
